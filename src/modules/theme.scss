@@ -1,0 +1,48 @@
+//colors
+$color0:  hsla(360, 0%, 100%, 0); //transp
+$color1:  hsl(360, 0%, 100%); //white
+$color1-1:  hsl(360, 0%, 95%);
+$color2:  hsl(360, 0%, 0%); //black
+$color3:  hsl(223, 73, 31);
+$color4:  hsl(202, 100, 47);
+$color5:  hsl(205, 57, 72);
+$color6:  hsl(199, 69, 75);
+$color6-1:  hsl(199, 69, 80);
+$color6-2:  hsl(199, 69, 85);
+$color6-3:  hsl(199, 69, 90);
+$color6-4:  hsl(199, 69, 95);
+$color6-5:  hsl(199, 69, 99);
+$color7:  hsl(0, 100, 38);
+$color8:  hsl(0, 0, 41);
+
+$gradient-gor-cl1-cl4: linear-gradient(135deg, $color1,$color4);
+$gradient-gor-cl1-cl5: linear-gradient(135deg, $color1,$color5);
+$gradient-gor-cl3-cl4: linear-gradient(135deg, $color3,$color4);
+
+$gradient-gor-cl4-cl0: linear-gradient(135deg, $color4,$color0);
+$gradient-gor-cl5-cl0: linear-gradient(135deg, $color5,$color0);
+$gradient-gor-cl6-cl0: linear-gradient(135deg, $color6,$color0);
+$gradient-gor-cl0-cl4: linear-gradient(135deg, $color0,$color4);
+$gradient-gor-cl0-cl5: linear-gradient(135deg, $color0,$color5);
+$gradient-gor-cl0-cl6: linear-gradient(135deg, $color0,$color6);
+
+$gradient-ver-cl0-cl4: linear-gradient(180deg, $color0,$color4);
+$gradient-ver-cl0-cl5: linear-gradient(180deg, $color0,$color0,$color0,$color0,$color0,$color0,$color0,$color5);
+$gradient-ver-cl0-cl6: linear-gradient(180deg, $color0,$color6);
+
+$gradient-ver-cl4-cl0: linear-gradient(180deg, $color4,$color0);
+$gradient-ver-cl5-cl0: linear-gradient(180deg, $color5,$color0);
+$gradient-ver-cl6-cl0: linear-gradient(180deg, $color6,$color0);
+
+$gradient-ver-cl1-cl4: linear-gradient(180deg, $color1,$color4);
+$gradient-ver-cl1-cl5: linear-gradient(180deg, $color1,$color5);
+$gradient-ver-cl5-cl1: linear-gradient(180deg, $color5,$color1);
+$gradient-ver-cl6-cl1: linear-gradient(180deg, $color6,$color1);
+$gradient-ver-cl63-cl1: linear-gradient(180deg, $color6-3,$color1);
+$gradient-ver-cl64-cl1: linear-gradient(180deg, $color6-4,$color1);
+$gradient-ver-cl65-cl1: linear-gradient(180deg, $color6-5,$color1);
+$gradient-ver-cl3-cl4: linear-gradient(180deg, $color3,$color4);
+
+
+//var
+//$menuHeight: 10vh;

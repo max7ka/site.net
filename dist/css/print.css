@@ -1,0 +1,47 @@
+.print{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    text-align: justify;
+    text-justify: inter-word;   
+    font-family: Arial, Verdana, Helvetica, sans-serif; 
+    font-size: 12pt;     
+    display: block;
+}
+.print .page-stamp{
+    /*color: gray;*/
+    display: block;
+    font-size: 10pt;
+}
+.title{
+    font-weight: bold;
+    text-align: left;
+    font-size: 16pt;
+    margin: 20px;
+}
+.subtitle{
+    font-weight: bold;
+    text-align: left;
+    font-size: 8pt;
+    margin: 20px;
+}
+.title-sub{
+    font-weight: bold;
+    text-align: left;
+    font-size: 16pt;
+    margin: 20px;    
+}
+/*.page-title-width-image{
+    background-image: url('') !important;
+}*/
+.b-tooltip{
+    display: none;
+}
+p{
+    text-indent: 30px;
+    margin: 5px;
+}
+
+.print-no{
+    display: none;
+}
